@@ -2,11 +2,12 @@ import { ReactNode } from "react";
 
 type ContainerProps = {
   children: ReactNode;
+  size?: string;
 };
 
-const Container = ({ children }: ContainerProps) => {
+const Container = ({ children, size }: ContainerProps) => {
   return (
-    <div className="max-w-screen-2xl mx-auto">
+    <div className={`${size === 'xl' ? 'max-w-screen-xl' : 'max-w-screen-2xl' } mx-auto`}>
       {children}
     </div>
   );
