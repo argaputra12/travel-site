@@ -1,5 +1,11 @@
-export default function IndexPage() {
+import Layout from "components/Layout"
+
+const IndexPage = () => {
     return (
-      <div>Hello, Travelo!</div>
+      <Layout>
+        <h1>Home</h1>
+      </Layout>
     )
   }
+
+export default IndexPage
