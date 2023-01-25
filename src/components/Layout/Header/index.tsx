@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-import Container from 'components/Container'
+import Container from 'components/Container/index'
 import Search from './Search'
 import Nav from '../Nav'
 import Button from 'components/Button'
@@ -22,12 +22,11 @@ const Header = () => {
               width={182}
             />
             <Search />
-            
+
           </div>
           <div className='flex gap-12'>
             <Nav />
             <Button
-              className='hover:bg-blue-70 transition-all duration-200'
               onClick={() => console.log('clicked')}
             >
               Masuk

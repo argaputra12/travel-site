@@ -1,10 +1,9 @@
-import Layout from "components/Layout"
+import React from 'react'
+import Home from 'containers/Home'
 
 const IndexPage = () => {
     return (
-      <Layout>
-        <h1>Home</h1>
-      </Layout>
+      <Home />
     )
   }
 

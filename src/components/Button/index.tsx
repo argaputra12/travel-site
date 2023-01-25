@@ -2,7 +2,7 @@ import React, { ReactNode } from "react";
 
 type ButtonProps = {
   children: ReactNode;
-  onClick: () => void;
+  onClick?: () => void;
   className?: string;
 };
 
@@ -10,7 +10,7 @@ const Button = ({ children, onClick, className, ...props } : ButtonProps) => {
   return (
     <button
       onClick={onClick}
-      className={`bg-primary-blue text-white text-heading-5 font-label font-bold px-6 py-3 rounded-md ${className}`}
+      className={`bg-primary-blue text-white text-heading-5 font-label font-bold px-6 py-3 rounded-md hover:bg-blue-70 transition-all duration-150 ${className}`}
       {...props}
     >
       {children}

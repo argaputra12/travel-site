@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import Container from "components/Container"
+import Container from "components/Container/index"
 import FooterInfo from "./FooterInfo"
 
 import travelLogo from 'public/assets/travelo-logo-footer.png'

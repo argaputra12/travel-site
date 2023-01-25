@@ -1,3 +1,4 @@
+const { url } = require('inspector')
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
@@ -22,6 +23,10 @@ module.exports = {
         'heading-5': '14px',
         'heading-6': '12px',
       },
+      backgroundImage:{
+        'home-banner': "url('public/assets/home/header.png')",
+        'second-section': "url('public/assets/home/blue-bg-second-section.svg')",
+      }
     },
     colors: {
       primary: {
