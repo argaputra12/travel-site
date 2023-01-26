@@ -8,7 +8,7 @@ const TestimonialData = [
       src: ProfileImage,
       alt: "Profile"
     },
-    data : {
+    data: {
       name: "John Doe",
       city: "Jakarta",
       province: "DKI Jakarta",
@@ -23,7 +23,7 @@ const TestimonialData = [
       src: ProfileImage,
       alt: "Profile"
     },
-    data : {
+    data: {
       name: "John Doe",
       city: "Jakarta",
       province: "DKI Jakarta",
@@ -38,7 +38,7 @@ const TestimonialData = [
       src: ProfileImage,
       alt: "Profile"
     },
-    data : {
+    data: {
       name: "John Doe",
       city: "Jakarta",
       province: "DKI Jakarta",
@@ -53,7 +53,7 @@ const TestimonialData = [
       src: ProfileImage,
       alt: "Profile"
     },
-    data : {
+    data: {
       name: "John Doe",
       city: "Jakarta",
       province: "DKI Jakarta",

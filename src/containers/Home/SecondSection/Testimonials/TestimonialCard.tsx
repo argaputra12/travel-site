@@ -18,8 +18,8 @@ type TestimonialCardProps = {
   }
 }
 
-const TestimonialCard = ({...props} : TestimonialCardProps) => {
-  return(
+const TestimonialCard = ({ ...props }: TestimonialCardProps) => {
+  return (
     <div className="flex flex-col bg-white rounded-xl shadow-w-[288px] h-[281px] p-4">
       <div className="flex mb-4">
         <div className="relative rounded-full overflow-hidden h-16 w-16 mr-3">

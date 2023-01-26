@@ -1,10 +1,10 @@
 import React from 'react'
 
 import Container from 'components/Container'
-import PromoCarousel from './PromoCarousel'
-import Packages from './Packages'
-import Categories from './Categories'
-import Testimonials from './Testimonials'
+import PromoCarousel from './PromoCarousel/PromoCarousel'
+import Packages from './Packages/Packages'
+import Categories from './Categories/Categories'
+import Testimonials from './Testimonials/Testimonials'
 
 const SecondSection = () => {
   return (
