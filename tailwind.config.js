@@ -26,6 +26,7 @@ module.exports = {
       backgroundImage:{
         'home-banner': "url('public/assets/home/header.png')",
         'second-section': "url('public/assets/home/blue-bg-second-section.svg')",
+        'login-banner': "url('public/assets/login/login-bg.png')"
       }
     },
     colors: {

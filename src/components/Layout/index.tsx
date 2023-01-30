@@ -4,14 +4,15 @@ import Footer from "./Footer";
 
 type LayoutProps = {
 	children: ReactNode;
+	noFooter?: boolean;
 };
 
-const Layout = ({ children }: LayoutProps) => {
+const Layout = ({ children, noFooter }: LayoutProps) => {
 	return (
 		<>
 			<Header />
 				{children}
-			<Footer />
+			{noFooter ? null : <Footer />}
 		</>
 	);
 };
